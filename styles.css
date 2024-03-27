@@ -164,7 +164,7 @@ body {
 
 .resume_wrapper .resume_right .resume_data {
     display: flex;
-}
+}  
 
 .resume_wrapper .resume_right .resume_data .year {
     padding-right: 35px;
@@ -176,6 +176,10 @@ body {
     padding-left: 35px;
     margin-bottom: 20px;
     width: calc(100% - 115px);
+}
+
+.resume_wrapper .resume_right .resume_data .content h4 {
+    color: #025581;
 }
 
 .resume_wrapper .resume_right .resume_data .year:before {
